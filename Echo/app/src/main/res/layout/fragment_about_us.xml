@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="18dp"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/akshay"
+        android:id="@+id/developer_photo"
+        android:visibility="visible"
+        android:background="#212121"
+        android:contentDescription="@string/nav_header_desc"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/about_us"
+        android:text="This app is made by Akshay Pal
+as part of Internshala online Android Training Project "
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/developer_photo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="App version:1.0"
+        android:layout_below="@id/about_us"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>
